@@ -1,0 +1,88 @@
+========================================================================
+ANALISTA DE ASISTENCIA A USUARIOS — PODER JUDICIAL DE CORRIENTES
+Convocatoria N.º 07/26 · Standalone v1.1.0
+========================================================================
+
+QUÉ ES
+------
+Una aplicación de estudio offline en UN SOLO archivo HTML: teoría de los
+9 ejes, 500 preguntas, 7 simulacros cronometrados, 20 casos prácticos,
+30 preguntas de entrevista y plan de 4 semanas con seguimiento de progreso.
+
+CÓMO USARLA EN OTRA PC
+----------------------
+1. Copiá esta carpeta completa (o al menos el archivo .html) a la PC nueva,
+   por ejemplo en el Escritorio o en Documentos.
+2. Hacé doble clic en:
+      standalone_analista_asistencia_pj_corrientes.html
+3. Se abre en el navegador. No hay que instalar nada, no pide internet y no
+   requiere servidor.
+
+REQUISITOS
+----------
+Solo un navegador actualizado: Chrome, Edge o Firefox.
+(Verificado en Chrome/Chromium. En Firefox debería funcionar igual.)
+
+QUÉ ARCHIVOS NECESITAN REALMENTE
+--------------------------------
+SOLO el .html. Todo el contenido de los cuatro .md está incrustado adentro
+del archivo, dentro de <script id="contenido">.
+
+La subcarpeta "fuentes" es material de origen, para editar o regenerar:
+  01_Guia_Teorica.md ................. teoría de los 9 ejes
+  02_Banco_Preguntas.md .............. 500 preguntas con clave
+  03_Simulacros_y_Entrevista.md ...... Tandas 4, 9, 10 y entrevista
+  04_Plan_de_Estudio.md .............. diagnóstico y plan de 28 días
+  OFICINA DE ASISTENCIA A USUARIOS.txt  ejes del puesto
+  progreso_analista_pjc_2026-11-21.json  ejemplo de progreso exportado
+No hace falta copiarla para usar la app: es para tu archivo personal.
+
+MOVER TU PROGRESO DE UNA PC A OTRA
+----------------------------------
+El avance NO viaja dentro del HTML: se guarda en el navegador de cada equipo
+(localStorage). Para trasladarlo:
+
+  PC vieja:  Ajustes → "Exportar progreso"  → se descarga un .json
+  PC nueva:  abrir la app → Ajustes → "Importar progreso" → elegir ese .json
+
+El importador acepta tanto el formato nuevo (v1.1.0) como el anterior
+(por ejemplo el progreso_analista_pjc_2026-11-21.json que está en fuentes/),
+y avisa cuántos datos convirtió.
+
+IMPORTANTE: usá siempre el MISMO navegador y abrí el archivo desde la misma
+ruta. Si lo abrís desde otra ruta o desde una URL, el navegador lo considera
+otro "origen" y no verá el progreso anterior.
+
+ATAJOS
+------
+  1-4 ....... elegir opción
+  Enter ...... siguiente pregunta
+  Esc ........ salir / cerrar
+  ? .......... ayuda y atajos
+
+CONTENIDO DE ESTA CARPETA
+-------------------------
+  standalone_analista_asistencia_pj_corrientes.html   ← la aplicación
+  LEEME.txt                                          ← este archivo
+  informe_verificacion.md                            ← auditoría y cambios v1.1.0
+  fuentes/                                           ← material de origen
+     01_Guia_Teorica.md
+     02_Banco_Preguntas.md
+     03_Simulacros_y_Entrevista.md
+     04_Plan_de_Estudio.md
+     OFICINA DE ASISTENCIA A USUARIOS.txt
+     progreso_analista_pjc_2026-11-21.json
+
+CÓMO EDITAR EL CONTENIDO
+------------------------
+Con un editor de texto, buscá dentro del .html:
+     <script type="application/json" id="contenido">
+Ahí están los cuatro textos ("guia", "banco", "sim", "plan"). Si cambiás algo,
+respetá el escapado de saltos de línea (\n) y los caracteres especiales.
+No hace falta tocar el CSS ni el JavaScript.
+
+AVISO
+-----
+Material de preparación personal. No reemplaza la bibliografía oficial del
+concurso. Los datos institucionales marcados "requiere verificación" en el
+material siguen marcados como tales.
