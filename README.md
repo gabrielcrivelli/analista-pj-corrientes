@@ -1,38 +1,40 @@
-# Analista de Asistencia a Usuarios — PJ Corrientes (Conv. 07/26)
+# Analista de Asistencia a Usuarios â€” PJ Corrientes (Conv. 07/26)
 
-Aplicación de estudio **offline** en un único archivo HTML, para el concurso de Analista de
+**Publicado en:** https://gabrielcrivelli.github.io/analista-pj-corrientes/
+
+AplicaciÃ³n de estudio **offline** en un Ãºnico archivo HTML, para el concurso de Analista de
 Asistencia a Usuarios del Poder Judicial de Corrientes.
 
-**Versión:** v1.1.0 · **Contenido:** archivos 01–04 del material (21/11/2026)
+**VersiÃ³n:** v1.1.0 Â· **Contenido:** archivos 01â€“04 del material (21/11/2026)
 
 ## Usar
 
-- **Online:** abrí la página publicada (GitHub Pages) y listo.
-- **Offline:** descargá `index.html` y hacé doble clic. Funciona sin internet, sin servidor
+- **Online:** abrÃ­ la pÃ¡gina publicada (GitHub Pages) y listo.
+- **Offline:** descargÃ¡ `index.html` y hacÃ© doble clic. Funciona sin internet, sin servidor
   y sin instalar nada.
 
-## Qué incluye
+## QuÃ© incluye
 
-| Módulo | Contenido |
+| MÃ³dulo | Contenido |
 |---|---|
-| Teoría | 9 ejes × 7 subsecciones, con 17 diagramas SVG y 5 animaciones |
-| Banco | 500 preguntas (470 + 30 integradoras) con corrección automática |
+| TeorÃ­a | 9 ejes Ã— 7 subsecciones, con 17 diagramas SVG y 5 animaciones |
+| Banco | 500 preguntas (470 + 30 integradoras) con correcciÃ³n automÃ¡tica |
 | Simulacros | 5 de 20 preguntas + 2 finales de 40, cronometrados |
-| Diagnóstico | 20 preguntas, 25 minutos, con ajuste sugerido del plan |
-| Casos | 20 casos prácticos con resolución y rúbrica de 6 × 8 |
-| Entrevista | 30 preguntas con temporizador de 90 s y rúbrica |
-| Plan | 28 días con checklist, reordenamiento y racha |
-| Progreso | Índice ponderado, gráficos, recomendaciones e informe `.md` |
+| DiagnÃ³stico | 20 preguntas, 25 minutos, con ajuste sugerido del plan |
+| Casos | 20 casos prÃ¡cticos con resoluciÃ³n y rÃºbrica de 6 Ã— 8 |
+| Entrevista | 30 preguntas con temporizador de 90 s y rÃºbrica |
+| Plan | 28 dÃ­as con checklist, reordenamiento y racha |
+| Progreso | Ãndice ponderado, grÃ¡ficos, recomendaciones e informe `.md` |
 
 ## Progreso
 
 Se guarda en el navegador (`localStorage`). Para moverlo entre equipos:
-**Ajustes → Exportar progreso** (JSON) y luego **Importar progreso** en el otro.
-El importador acepta también el formato anterior del archivo.
+**Ajustes â†’ Exportar progreso** (JSON) y luego **Importar progreso** en el otro.
+El importador acepta tambiÃ©n el formato anterior del archivo.
 
 ## Notas
 
 - Sin frameworks, sin CDN, sin dependencias externas.
-- Accesibilidad: navegación por teclado, foco visible, temas claro/oscuro/alto contraste,
+- Accesibilidad: navegaciÃ³n por teclado, foco visible, temas claro/oscuro/alto contraste,
   `prefers-reduced-motion` y textos alternativos en los SVG.
-- Material de preparación personal. No reemplaza la bibliografía oficial del concurso.
+- Material de preparaciÃ³n personal. No reemplaza la bibliografÃ­a oficial del concurso.
